@@ -23,7 +23,7 @@ def printer(attendees)
     puts x 
   end
   room_list = assign_rooms(attendees)
-  room_list.each do |x|
+  room_list.each do |print|
     puts x 
   end
 end
