@@ -12,6 +12,6 @@ end
 
 def assign_rooms(room_list)
   room_assign = []
-    room_list.each
+    room_list.each_with_index
   
 end
