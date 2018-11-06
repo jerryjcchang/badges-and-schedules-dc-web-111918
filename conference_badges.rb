@@ -13,7 +13,7 @@ end
 def assign_rooms(room_list)
   room_assign = []
     room_list.each_with_index{ |name, index| }
-    room_assign = "Hello, #{name}! You'll be assigned to room #{index-1}!"
+    room_assign = "Hello, #{name}! You'll be assigned to room #{index}!"
   end
   room_assign
 end
