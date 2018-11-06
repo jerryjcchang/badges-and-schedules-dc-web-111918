@@ -10,5 +10,8 @@ def batch_badge_creator(list)
   badge
 end
 
-def assign_rooms(list)
+def assign_rooms(room_list)
+  room_assign = []
+    room_list.each
+  
 end
